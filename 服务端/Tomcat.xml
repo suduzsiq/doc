@@ -1,0 +1,2 @@
+热启动
+ <Context docBase="vpt-aloe" path="/" reloadable="false" crossContext="true" source="org.eclipse.jst.jee.server:vpt-aloe"/></Host>
