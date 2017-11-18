@@ -423,7 +423,6 @@ axios.post('/foo', qs.stringify({ 'bar': 123 });
 ```
 var querystring = require('querystring');
 axios.post('http://something.com/', querystring.stringify({ foo: 'bar' });
-
 ```
 你也可以使用qs库。
 ##12、Promise
