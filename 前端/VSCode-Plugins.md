@@ -1,75 +1,85 @@
 #VisualStudioCode-Plugins
-##通用插件
-###HTML Snippets 
-超级实用且初级的 H5代码片段以及提示
-
-![](https://segmentfault.com/img/bVCgml)
-###HTML CSS Support
-让 html 标签上写class 智能提示当前项目所支持的样式
-新版已经支持scss文件检索
-
-![](https://segmentfault.com/img/bVCgmy)
-###Debugger for Chrome
-让 vscode 映射 chrome 的 debug功能，静态页面都可以用 vscode 来打断点调试，真666~ 
-配置稍微复杂一些，哪天心情好我再另写教程吧~
-###jQuery Code Snippets
-jQuery必备
-![](https://segmentfault.com/img/bVCgnd)
-###vscode-icon
-让 vscode 资源树目录加上图标，必备良品！
-![](https://segmentfault.com/img/bVCgnn)
-###Path Intellisense
-自动路劲补全，默认不带这个功能的，赶紧装
-![](https://segmentfault.com/img/bVCgnp)
-###Npm Intellisense
-require 时的包提示（最新版的vscode已经集成此功能）
-![](https://segmentfault.com/img/bVCgEZ)
-###Document this
-js 的注释模板 （注意：新版的vscode已经原生支持,在function上输入/** tab）
-![](https://segmentfault.com/img/bVCgn4)
-###ESlint
-ESlint 接管原生 js 提示，可以自定制提示规则。这个比较高玩，不会的就算了，
-详情配置请看[https://segmentfault.com/a/1190000010462601](https://segmentfault.com/a/1190000010462601)
-###HTMLHint
-html代码检测
-![](https://segmentfault.com/img/bVJzm8)
-###Project Manager
-在多个项目之前快速切换的工具
-###beautify
-格式化代码的工具
-###Bootstrap 3 Sinnpet
-常用 bootstrap 的可以下
-###Atuo Rename Tag
-修改 html 标签，自动帮你完成尾部闭合标签的同步修改
-![](https://segmentfault.com/img/bVCgBn)
-###GitLens
-丰富的git日志插件
-![](https://segmentfault.com/image?src=https://raw.githubusercontent.com/eamodio/vscode-git-codelens/master/images/gitlens-preview1.gif&objectId=1190000006697219&token=96411a6b6f6f8ca62c72404617c28384)
-###fileheader
-顶部注释模板，可定义作者、时间等信息，并会自动更新最后修改时间
-![](https://segmentfault.com/image?src=https://github.com/zhaopengme/vscode-fileheader/raw/master/fileheader.gif&objectId=1190000006697219&token=76a9aad486f7c58322c42beefd769345)
-###filesize
-在底部状态栏显示当前文件大小，点击后还可以看到详细创建、修改时间
-![](https://segmentfault.com/img/bVJ9Yf)
-###Bracket Pair Colorizer
-让括号拥有独立的颜色，易于区分。可以配合任意主题使用
-![](https://segmentfault.com/image?src=https://github.com/CoenraadS/BracketPair/raw/master/images/example.png&objectId=1190000006697219&token=ebbc85129614f4b5de6b6fdbd2d8a6c7)
-##Vue插件
-###vetur
-语法高亮、智能感知、Emmet等
-
-![](https://segmentfault.com/img/bVJw3Y)
-###VueHelper
-snippet代码片段
-![](https://segmentfault.com/image?src=https://github.com/OYsun/vscode-VueHelper/raw/dev/src/images/description.gif&objectId=1190000006697219&token=5be8f2312ee445c271c21e0e72e853e5)
-##主题
-###Material
-冷门、好看、实用。此主题已停更许久
-![](https://segmentfault.com/img/bVCgCF)
-###Dracula
-目前我觉得是vscode上最漂亮的主题,vscode 1.11+允许自定义statusBar等全局ui后,该主题也跟进改了很多小细节,良心!~
-![](https://segmentfault.com/img/bVMssD)
-###One Dark Pro
-源于Atom,老版本的Atom One Dark主题可以扔了.
-![](https://segmentfault.com/img/bVNFIb)
+|名称|功能|
+|:--:|:--:|
+|Auto Close Tag|自动闭合HTML标签|
+|Auto Import Typescript|自动import提示|
+|Auto Rename Tag|修改HTML标签时，自动修改匹配的标签|
+|Beautify|css/sass/scss/less css/sass/less格式化|
+|Better Comments|编写更加人性化的注释|
+|Bookmarks|添加行书签|
+|Can I Use|HTML5、CSS3、SVG的浏览器兼容性检查|
+|Code Runner|运行选中代码段（支持大量语言，包括Node）|
+|Code Spellchecker|单词拼写检查|
+|CodeBing|在VSCode中弹出浏览器并搜索，可编辑搜索引擎|
+|Color Highlight|颜色值在代码中高亮显示|
+|Color Info|小窗口显示颜色值，rgb,hsl,cmyk,hex等等|
+|Color Picker|拾色器|
+|Document This|注释文档生成|
+|ESLint|ESLint插件，高亮提示|
+|EditorConfig for VS Code|EditorConfig插件|
+|Emoji|在代码中输入emoji|
+|File Peek|根据路径字符串，快速定位到文件|
+|Font-awesome|codes for html FontAwesome提示代码段|
+|Git Blame|在状态栏显示当前行的Git信息|
+|Git History(git log)|查看git log|
+|GitLens|显示文件最近的commit和作者，显示当前行commit信息|
+|Guides|高亮缩进基准线|
+|Gulp Snippets|Gulp代码段|
+|HTML CSS Class Completion|CSS class提示|
+|HTML CSS Support|css提示（支持vue）|
+|HTMLHint|HTML格式提示|
+|Indenticator|缩进高亮|
+|IntelliSense for css class names|css class输入提示|
+|JavaScript (ES6) code snippets|ES6语法代码段|
+|JavaScript Standard Style|Standard风格|
+|Less IntelliSense|less变量与混合提示|
+|Lodash|Lodash代码段|
+|MochaSnippets|Mocha代码段|
+|Node modules resolve|快速导航到Node模块|
+|Code Outline|展示代码结构树|
+|Output Colorizer|彩色输出信息|
+|One Dark Pro|Atom主题插件|
+|Partial Diff|对比两段代码或文件|
+|Path Autocomplete|路径完成提示|
+|Path Intellisense|另一个路径完成提示|
+|PostCss Sorting|css排序|
+|Prettify JSON|格式化JSON|
+|Project Manager|快速切换项目|
+|Quokka.js|不需要手动运行，行内显示变量结果|
+|REST Client|发送REST风格的HTTP请求|
+|React Native Storybooks|storybook预览插件，支持react|
+|React Playground|为编辑器提供一个react组件运行环境，方便调试|
+|React Standard Style code snippets|react standar风格代码块|
+|Sass|sass插件|
+|Settings Sync|VSCode设置同步到Gist|
+|Sort Typescript Imports|typescript的import排序|
+|Sort lines|排序选中行|
+|String Manipulation|字符串转换处理（驼峰、大写开头、下划线等等）|
+|Syncing vscode|设置同步到gist|
+|TODO Parser|Todo管理|
+|TS/JS postfix completion|ts/js前缀提示|
+|TSLint|TypeScript语法检查|
+|Test Spec Generator|测试用例生成（支持chai、should、jasmine）|
+|TypeScript Import|TS自动import|
+|TypeSearch|TS声明文件搜索|
+|Types auto installer|自动安装@types声明依赖|
+|VSCode Great Icons|文件图标拓展|
+|Version Lens|package.json文件显示模块当前版本和最新版本|
+|View Node Package|快速打开选中模块的主页和代码仓库|
+|VueHelper|Vue2代码段（包括Vue2 api、vue-router2、vuex2）|
+|filesize|状态栏显示当前文件大小|
+|ftp-sync|同步文件到ftp|
+|gitignore|.gitignore文件语法|
+|htmltagwrap|快捷包裹html标签|
+|language-stylus|Stylus语法高亮和提示|
+|markdownlint|Markdown格式提示|
+|npm Intellisense|导入模块时，提示已安装模块名称|
+|npm|运行npm命令|
+|stylelint|css/sass/less代码风格|
+|vetur|目前比较好的Vue语法高亮|
+|vscode-database|操作数据库，支持mysql和postgres|
+|vscode-icons|文件图标，方便定位文件|
+|vscode-random|随机字符串生成器|
+|vscode-styled-components|styled-components高亮支持|
+|vscode-styled-jsx|styled-jsx高亮支持|
 
