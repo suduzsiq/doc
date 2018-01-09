@@ -63,7 +63,7 @@
 |TypeScript Import|TS自动import|
 |TypeSearch|TS声明文件搜索|
 |Types auto installer|自动安装@types声明依赖|
-|VSCode Great Icons|文件图标拓展|
+|Vscode-icon|文件图标拓展|
 |Version Lens|package.json文件显示模块当前版本和最新版本|
 |View Node Package|快速打开选中模块的主页和代码仓库|
 |VueHelper|Vue2代码段（包括Vue2 api、vue-router2、vuex2）|
