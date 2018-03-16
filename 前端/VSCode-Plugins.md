@@ -2,6 +2,7 @@
 |名称|功能|
 |:--:|:--:|
 |Auto Close Tag|自动闭合HTML标签|
+|HTML Snippets|超级实用且初级的 H5代码片段以及提示|
 |Auto Import Typescript|自动import提示|
 |Auto Rename Tag|修改HTML标签时，自动修改匹配的标签|
 |Beautify|css/sass/scss/less css/sass/less格式化|
