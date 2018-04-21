@@ -83,4 +83,6 @@
 |vscode-random|随机字符串生成器|
 |vscode-styled-components|styled-components高亮支持|
 |vscode-styled-jsx|styled-jsx高亮支持|
+|Import Cost|导入Es6 模块|
+|Bracket Pair Colorizer|括号彩色|
 

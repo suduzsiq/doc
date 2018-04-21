@@ -1,3 +1,14 @@
+![](https://img-blog.csdn.net/20170422114557808?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvanRyYWN5ZHk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+
+```
+  Workspace：工作区
+
+  Index / Stage：暂存区
+
+  Repository：仓库区（或本地仓库）
+
+  Remote：远程仓库
+```
 ## 1、新建代码库
 ```bash
 # 在当前目录新建一个Git代码库
